@@ -2,10 +2,15 @@ package es.upm.miw.ecp1patrones.vehiculo;
 
 public class Moto extends Vehiculo {
 
-    @Override
-    public int calcularPrecio() {
+    public Moto(String id, String descripcion) {
+		super(id, descripcion);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+    public double calcularPrecio(int dias) {
         // TODO Auto-generated method stub
-        return 0;
+        return 0.0;
     }
 
     @Override
