@@ -7,7 +7,6 @@ public class Operations {
         for (int i = 0; i < operators.length; i++) {
             if (operators[i] == null) {
                 operators[i] = operator;
-
                 return;
             }
         }
