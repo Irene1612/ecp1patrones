@@ -5,7 +5,7 @@ public enum Categoria {
 
     public final int precioBase;
 
-    private Categoria(int precioBase) {
+    private Categoria(final int precioBase) {
         this.precioBase = precioBase;
     }
 }
