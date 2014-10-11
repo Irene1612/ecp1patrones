@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CocheTest {
+public class CocheTest extends VehiculoTest {
 
 	private static final int NUM_CATEGORIAS = 3;
 	private Vehiculo[] coches;	
