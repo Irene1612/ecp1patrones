@@ -19,7 +19,7 @@ public class BicicletaTest {
 		assertEquals(3.0, this.bici.calcularPrecio(1), 10e-3);
 		assertEquals(6.0, this.bici.calcularPrecio(2), 10e-3);
 		assertEquals(8.0, this.bici.calcularPrecio(3), 10e-3);
-		assertEquals(12.0, this.bici.calcularPrecio(4), 10e-3);		
+		assertEquals(12.0, this.bici.calcularPrecio(5), 10e-3);		
 	}
 
 	@Test
