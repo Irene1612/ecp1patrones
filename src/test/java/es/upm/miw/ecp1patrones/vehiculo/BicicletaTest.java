@@ -11,7 +11,7 @@ public class BicicletaTest extends VehiculoTest {
 
 	@Before
 	public void before() {
-		bici = new Bicicleta("id1", "Eléctrica");
+		bici = new Bicicleta("id5", "Eléctrica");
 	}
 
 	@Test
@@ -24,6 +24,6 @@ public class BicicletaTest extends VehiculoTest {
 
 	@Test
 	public void testToString() {
-		assertEquals("Bicicleta: [id: id1], [descripcion: Eléctrica]", bici.toString());
+		assertEquals("Bicicleta: [id: id5], [descripcion: Eléctrica]", bici.toString());
 	}
 }

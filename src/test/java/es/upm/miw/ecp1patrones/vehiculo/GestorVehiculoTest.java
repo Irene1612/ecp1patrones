@@ -11,17 +11,20 @@ public class GestorVehiculoTest {
     
     @Before
     public void before(){
-        this.gestorVehiculo = new GestorVehiculo();
+        this.gestorVehiculo = new GestorVehiculo();        
     }
 
     @Test
     public void testAniadirBuscarVehiculo() {
-        fail("Not yet implemented");
+    	gestorVehiculo.aniadirVehiculo(new Coche("coche1", "Automático", Categoria.A));
+    	Vehiculo vehiculo = gestorVehiculo.buscarVehiculo("coche1");
+    	assertEquals("coche1", vehiculo.id);
+    	assertEquals("Automático", vehiculo.descripcion);
     }
 
-    @Test
-    public void testToString() {
-        fail("Not yet implemented");
-    }
+//    @Test
+//    public void testToString() {
+//        fail("Not yet implemented");
+//    }
 
 }

@@ -11,7 +11,7 @@ public class MotoTest extends VehiculoTest {
 
 	@Before
 	public void before() {
-		moto = new Moto("id1", "220cc");
+		moto = new Moto("id4", "220cc");
 	}
 
 	@Test
@@ -24,6 +24,6 @@ public class MotoTest extends VehiculoTest {
 
 	@Test
 	public void testToString() {
-		assertEquals("Moto: [id: id1], [descripcion: 220cc]", moto.toString());
+		assertEquals("Moto: [id: id4], [descripcion: 220cc]", moto.toString());
 	}
 }
